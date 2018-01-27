@@ -6,5 +6,5 @@
 ### Compile, link
 
 ``` bash
-g++ $(/usr/local/bin/fltk-config --cxxflags) -o hello hello.cpp $(/usr/local/bin/fltk-config --ldflags)
+g++ $(fltk-config --cxxflags) -o hello hello.cpp $(fltk-config --ldflags)
 ```
