@@ -1,6 +1,6 @@
 ### Set up
 
- - download fltk (not Chrome may silently gunzip the .tar.gz without renaming to .tar)
+ - download fltk (note Chrome may silently gunzip the .tar.gz without renaming to .tar)
  - ./configure && make && sudo make install
 
 ### Compile, link
