@@ -4,14 +4,13 @@
 
 int main() {
   Fl_Window window(200, 200, "Window Title");
-  Fl_Box box(0,0,200,200, "Heellooo");
-  /*
-  box->box(FL_UP_BOX);
-  box->labelfont(FL_BOLD+FL_ITALIC);
-  box->labelsize(36);
-  box->labeltype(FL_SHADOW_LABEL);
-  window->end();
-  */
+  Fl_Box box(50,50,150,150, "Heellooo");
+
+  box.box(FL_UP_BOX);
+  box.labelfont(FL_BOLD+FL_ITALIC);
+  box.labelsize(18);
+  window.end();
+
   window.show();
   return Fl::run();
 }
